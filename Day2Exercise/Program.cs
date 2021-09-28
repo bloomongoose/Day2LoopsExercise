@@ -33,11 +33,20 @@ namespace Day2Exercise
                 {
                     runProgram = false;
                 }
+
             }
 
-
-
+            int sum = 0;
             
+            for (int i = 0; i <=5; i++)
+            {
+                sum += i;               
+            }
+            Console.WriteLine(sum);
+
+
+
+
         }
     }
 }
