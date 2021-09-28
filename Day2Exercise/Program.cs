@@ -17,6 +17,26 @@ namespace Day2Exercise
             
             }
 
+            bool runProgram = true;
+
+            while(runProgram)
+            {
+                Console.WriteLine("Do you wish to continue looping? y/n");
+                string answer = Console.ReadLine();
+
+                if (answer == "y")
+                {
+                    runProgram = true;
+                }
+
+                else if (answer == "n" || answer == "")
+                {
+                    runProgram = false;
+                }
+            }
+
+
+
             
         }
     }
